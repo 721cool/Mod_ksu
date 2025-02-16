@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="balls">
+        <file id="0" name="balls/12.png" width="248" height="350" pivot_x="0.511855" pivot_y="0.497866"/>
+    </folder>
+    <entity id="0" name="moteng">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="12" folder="0" file="0" abs_x="135.891816" abs_y="-176.496354" abs_pivot_x="0.511855" abs_pivot_y="0.497866" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="12">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="135.891816" y="-176.496354" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="fly" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="12_000" folder="0" file="0" abs_x="1.988145" abs_y="0.002134" abs_pivot_x="0.511855" abs_pivot_y="0.497866" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="309">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="704">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="12_000">
+                <key id="0">
+                    <object folder="0" file="0" x="1.988145" y="0.002134"/>
+                </key>
+                <key id="1" time="309">
+                    <object folder="0" file="0" x="1.988145" y="0.002134" angle="169.837919" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="2" time="704">
+                    <object folder="0" file="0" x="1.988145" y="0.002134" angle="252.444852" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

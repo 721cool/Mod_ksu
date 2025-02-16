@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="balls">
+        <file id="0" name="balls/MIKASA.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="balls/mm.png" width="200" height="200" pivot_x="0.499348" pivot_y="0.484517"/>
+    </folder>
+    <entity id="0" name="mikasa">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mm" folder="0" file="1" abs_x="2.714057" abs_y="107.280901" abs_pivot_x="0.499348" abs_pivot_y="0.484517" abs_angle="0" abs_scale_x="1.285546" abs_scale_y="1.250633" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="mm">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="2.714057" y="107.280901" angle="0" scale_x="1.285546" scale_y="1.250633"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="atk" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mm_001" folder="0" file="1" abs_x="10.416667" abs_y="0" abs_pivot_x="0.499348" abs_pivot_y="0.484517" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="mm_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="10.416667"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="fly" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mm_000" folder="0" file="1" abs_x="0.709871" abs_y="-0.693737" abs_pivot_x="0.499348" abs_pivot_y="0.484517" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="325">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="738">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="mm_000">
+                <key id="0">
+                    <object folder="0" file="1" x="0.709871" y="-0.693737" angle="0"/>
+                </key>
+                <key id="1" time="325">
+                    <object folder="0" file="1" x="0.709871" y="-0.693737" angle="135.949755"/>
+                </key>
+                <key id="2" time="738">
+                    <object folder="0" file="1" x="0.709871" y="-0.693737" angle="296.162515"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

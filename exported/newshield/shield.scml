@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="zhengchang">
+        <file id="0" name="zhengchang/iceshield00.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="zhengchang/iceshield02.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="zhengchang/iceshield01.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="zhengchang/iceshield06.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="zhengchang/iceshield05.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="zhengchang/iceshield04.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="zhengchang/iceshield03.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="zhengchang/iceshield07.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="zhengchang/iceshield08.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="zhengchang/iceshield09.png" width="512" height="512" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="zhengchang/qidong00.png" width="2048" height="2048" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="zhengchang/qidong01.png" width="2048" height="2048" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="zhengchang/qidong02.png" width="2048" height="2048" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="zhengchang/qidong03.png" width="2048" height="2048" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="zhengchang/qidong04.png" width="2048" height="2048" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="shield">
+        <animation id="0" name="anim" length="540">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="iceshield00" folder="0" file="2" abs_x="-255" abs_y="256" abs_pivot_x="0" abs_pivot_y="1" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="98">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="195">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="294">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="392">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="441">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="539">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="iceshield00">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-255" y="256"/>
+                </key>
+                <key id="1" time="98" spin="0">
+                    <object folder="0" file="6" x="-255" y="256"/>
+                </key>
+                <key id="2" time="195" spin="0">
+                    <object folder="0" file="7" x="-255" y="256"/>
+                </key>
+                <key id="3" time="294" spin="0">
+                    <object folder="0" file="9" x="-255" y="256"/>
+                </key>
+                <key id="4" time="392" spin="0">
+                    <object folder="0" file="5" x="-255" y="256"/>
+                </key>
+                <key id="5" time="441" spin="0">
+                    <object folder="0" file="2" x="-255" y="256"/>
+                </key>
+                <key id="6" time="539" spin="0">
+                    <object folder="0" file="2" x="-255" y="256"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

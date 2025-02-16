@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="balls">
+        <file id="0" name="balls/12.png" width="248" height="350" pivot_x="0.32731" pivot_y="0.428775"/>
+    </folder>
+    <entity id="0" name="moteng">
+        <animation id="0" name="BUILD" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="12" folder="0" file="0" abs_x="-41.82731" abs_y="-24.928775" abs_pivot_x="0.32731" abs_pivot_y="0.428775" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="12">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-41.82731" y="-24.928775" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="pump">
+        <file id="0" name="pump/pump.png" width="1000" height="1415" pivot_x="0.544712" pivot_y="0.718671"/>
+    </folder>
+    <entity id="0" name="pump">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="pump" folder="0" file="0" abs_x="5.990329" abs_y="152.953569" abs_pivot_x="0.544712" abs_pivot_y="0.718671" abs_angle="0" abs_scale_x="0.216302" abs_scale_y="0.212334" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="pump">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="5.990329" y="152.953569" angle="0" scale_x="0.216302" scale_y="0.212334"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

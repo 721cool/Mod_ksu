@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="star_fx">
+        <file id="0" name="star_fx/Ambience_Meteor.png" width="62" height="96" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="star_fx/Starfury.png" width="42" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="star_fx/Star_Wrath_(projectile).png" width="90" height="34" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="star_fx">
+        <animation id="0" name="idle" length="360">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Ambience_Meteor" folder="0" file="0" abs_x="1382.221422" abs_y="1191.303214" abs_pivot_x="0.631519" abs_pivot_y="0.373257" abs_angle="322.75196" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="358">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Ambience_Meteor">
+                <key id="0" spin="-1">
+                    <object folder="0" file="0" x="1382.221422" y="1191.303214" pivot_x="0.631519" pivot_y="0.373257" angle="322.75196" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="1" time="358">
+                    <object folder="0" file="0" x="64.574363" y="29.538508" pivot_x="0.631519" pivot_y="0.373257" angle="320.186233" scale_x="2.587857" scale_y="2.215922"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="idle1" length="360">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Starfury" folder="0" file="1" abs_x="1199.857387" abs_y="1279.417579" abs_pivot_x="0.586264" abs_pivot_y="0.496483" abs_angle="182.730203" abs_scale_x="1.653215" abs_scale_y="1.653215" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="359">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Starfury">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="1199.857387" y="1279.417579" pivot_x="0.586264" pivot_y="0.496483" angle="182.730203" scale_x="1.653215" scale_y="1.653215"/>
+                </key>
+                <key id="1" time="359" spin="0">
+                    <object folder="0" file="1" x="70.445622" y="94.123461" pivot_x="0.586264" pivot_y="0.496483" angle="182.730203" scale_x="3.818348" scale_y="5.116639"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="idle2" length="360">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Star_Wrath_(projectile)" folder="0" file="2" abs_x="1691.244829" abs_y="1420.072689" abs_pivot_x="0" abs_pivot_y="1" abs_angle="228.31688" abs_scale_x="1.136716" abs_scale_y="2.031092" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="358">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Star_Wrath_(projectile)">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="1691.244829" y="1420.072689" angle="228.31688" scale_x="1.136716" scale_y="2.031092"/>
+                </key>
+                <key id="1" time="358" spin="0">
+                    <object folder="0" file="2" x="165.809962" y="82.678988" angle="228.31688" scale_x="2.291359" scale_y="4.026749"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

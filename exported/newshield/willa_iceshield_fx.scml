@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="zhengchang">
+        <file id="0" name="zhengchang/qidong00.png" width="2048" height="2048" pivot_x="0.503737" pivot_y="0.395635"/>
+        <file id="1" name="zhengchang/qidong01.png" width="2048" height="2048" pivot_x="0.503737" pivot_y="0.395635"/>
+        <file id="2" name="zhengchang/qidong02.png" width="2048" height="2048" pivot_x="0.503737" pivot_y="0.395635"/>
+        <file id="3" name="zhengchang/qidong03.png" width="2048" height="2048" pivot_x="0.503737" pivot_y="0.395635"/>
+        <file id="4" name="zhengchang/qidong04.png" width="2048" height="2048" pivot_x="0.503737" pivot_y="0.395635"/>
+        <file id="5" name="zhengchang/iceshield00.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+        <file id="6" name="zhengchang/iceshield01.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+        <file id="7" name="zhengchang/iceshield02.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+        <file id="8" name="zhengchang/iceshield03.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+        <file id="9" name="zhengchang/iceshield04.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+        <file id="10" name="zhengchang/iceshield05.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+        <file id="11" name="zhengchang/iceshield06.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+        <file id="12" name="zhengchang/iceshield07.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+        <file id="13" name="zhengchang/iceshield08.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+        <file id="14" name="zhengchang/iceshield09.png" width="512" height="512" pivot_x="0.509766" pivot_y="0.136719"/>
+    </folder>
+    <entity id="0" name="willa_iceshield_fx">
+        <animation id="0" name="anim" length="3000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="50">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="100">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="150">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="200">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="250">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="350">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="450">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="8" time="550">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+                <key id="9" time="650">
+                    <object_ref id="0" timeline="9" key="0" z_index="0"/>
+                </key>
+                <key id="10" time="750">
+                    <object_ref id="0" timeline="10" key="0" z_index="0"/>
+                </key>
+                <key id="11" time="850">
+                    <object_ref id="0" timeline="11" key="0" z_index="0"/>
+                </key>
+                <key id="12" time="950">
+                    <object_ref id="0" timeline="12" key="0" z_index="0"/>
+                </key>
+                <key id="13" time="1050">
+                    <object_ref id="0" timeline="13" key="0" z_index="0"/>
+                </key>
+                <key id="14" time="1150">
+                    <object_ref id="0" timeline="14" key="0" z_index="0"/>
+                </key>
+                <key id="15" time="1250">
+                    <object_ref id="0" timeline="15" key="0" z_index="0"/>
+                </key>
+                <key id="16" time="1350">
+                    <object_ref id="0" timeline="16" key="0" z_index="0"/>
+                </key>
+                <key id="17" time="1450">
+                    <object_ref id="0" timeline="17" key="0" z_index="0"/>
+                </key>
+                <key id="18" time="1540">
+                    <object_ref id="0" timeline="18" key="0" z_index="0"/>
+                </key>
+                <key id="19" time="1650">
+                    <object_ref id="0" timeline="19" key="0" z_index="0"/>
+                </key>
+                <key id="20" time="1750">
+                    <object_ref id="0" timeline="20" key="0" z_index="0"/>
+                </key>
+                <key id="21" time="1850">
+                    <object_ref id="0" timeline="21" key="0" z_index="0"/>
+                </key>
+                <key id="22" time="1950">
+                    <object_ref id="0" timeline="22" key="0" z_index="0"/>
+                </key>
+                <key id="23" time="2050">
+                    <object_ref id="0" timeline="23" key="0" z_index="0"/>
+                </key>
+                <key id="24" time="2150">
+                    <object_ref id="0" timeline="24" key="0" z_index="0"/>
+                </key>
+                <key id="25" time="2250">
+                    <object_ref id="0" timeline="25" key="0" z_index="0"/>
+                </key>
+                <key id="26" time="2350">
+                    <object_ref id="0" timeline="26" key="0" z_index="0"/>
+                </key>
+                <key id="27" time="2450">
+                    <object_ref id="0" timeline="27" key="0" z_index="0"/>
+                </key>
+                <key id="28" time="2550">
+                    <object_ref id="0" timeline="28" key="0" z_index="0"/>
+                </key>
+                <key id="29" time="2650">
+                    <object_ref id="0" timeline="29" key="0" z_index="0"/>
+                </key>
+                <key id="30" time="2700">
+                    <object_ref id="0" timeline="30" key="0" z_index="0"/>
+                </key>
+                <key id="31" time="2750">
+                    <object_ref id="0" timeline="31" key="0" z_index="0"/>
+                </key>
+                <key id="32" time="2800">
+                    <object_ref id="0" timeline="32" key="0" z_index="0"/>
+                </key>
+                <key id="33" time="2850">
+                    <object_ref id="0" timeline="33" key="0" z_index="0"/>
+                </key>
+                <key id="34" time="2900">
+                    <object_ref id="0" timeline="34" key="0" z_index="0"/>
+                </key>
+                <key id="35" time="2950">
+                    <object_ref id="0" timeline="35" key="0" z_index="0"/>
+                </key>
+                <key id="36" time="3000">
+                    <object_ref id="0" timeline="36" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="qidong00">
+                <key id="0" spin="0">
+                    <object folder="0" file="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="qidong01">
+                <key id="0" time="50" spin="0">
+                    <object folder="0" file="1"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="qidong02">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="2"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="qidong03">
+                <key id="0" time="150" spin="0">
+                    <object folder="0" file="3"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="qidong04">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="4"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="iceshield00">
+                <key id="0" time="250" spin="0">
+                    <object folder="0" file="5"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="iceshield01">
+                <key id="0" time="350" spin="0">
+                    <object folder="0" file="6"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="iceshield02">
+                <key id="0" time="450" spin="0">
+                    <object folder="0" file="7"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="iceshield03">
+                <key id="0" time="550" spin="0">
+                    <object folder="0" file="8"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="iceshield04">
+                <key id="0" time="650" spin="0">
+                    <object folder="0" file="9"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="iceshield05">
+                <key id="0" time="750" spin="0">
+                    <object folder="0" file="10"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="iceshield06">
+                <key id="0" time="850" spin="0">
+                    <object folder="0" file="11"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="iceshield07">
+                <key id="0" time="950" spin="0">
+                    <object folder="0" file="12"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="iceshield08">
+                <key id="0" time="1050" spin="0">
+                    <object folder="0" file="13"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="iceshield09">
+                <key id="0" time="1150" spin="0">
+                    <object folder="0" file="14"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="iceshield08_000">
+                <key id="0" time="1250" spin="0">
+                    <object folder="0" file="13"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="iceshield07_000">
+                <key id="0" time="1350" spin="0">
+                    <object folder="0" file="12"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="iceshield06_000">
+                <key id="0" time="1450" spin="0">
+                    <object folder="0" file="11"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="iceshield05_000">
+                <key id="0" time="1540" spin="0">
+                    <object folder="0" file="10"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="iceshield04_000">
+                <key id="0" time="1650" spin="0">
+                    <object folder="0" file="9"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="iceshield03_000">
+                <key id="0" time="1750" spin="0">
+                    <object folder="0" file="8"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="iceshield02_000">
+                <key id="0" time="1850" spin="0">
+                    <object folder="0" file="7"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="iceshield01_000">
+                <key id="0" time="1950" spin="0">
+                    <object folder="0" file="6"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="iceshield00_000">
+                <key id="0" time="2050" spin="0">
+                    <object folder="0" file="5"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="iceshield01_001">
+                <key id="0" time="2150" spin="0">
+                    <object folder="0" file="6"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="iceshield02_001">
+                <key id="0" time="2250" spin="0">
+                    <object folder="0" file="7"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="iceshield03_001">
+                <key id="0" time="2350" spin="0">
+                    <object folder="0" file="8"/>
+                </key>
+            </timeline>
+            <timeline id="27" name="iceshield04_001">
+                <key id="0" time="2450" spin="0">
+                    <object folder="0" file="9"/>
+                </key>
+            </timeline>
+            <timeline id="28" name="iceshield05_001">
+                <key id="0" time="2550" spin="0">
+                    <object folder="0" file="10"/>
+                </key>
+            </timeline>
+            <timeline id="29" name="iceshield06_001">
+                <key id="0" time="2650" spin="0">
+                    <object folder="0" file="11"/>
+                </key>
+            </timeline>
+            <timeline id="30" name="iceshield07_001">
+                <key id="0" time="2700" spin="0">
+                    <object folder="0" file="12"/>
+                </key>
+            </timeline>
+            <timeline id="31" name="iceshield05_002">
+                <key id="0" time="2750" spin="0">
+                    <object folder="0" file="10"/>
+                </key>
+            </timeline>
+            <timeline id="32" name="iceshield03_002">
+                <key id="0" time="2800" spin="0">
+                    <object folder="0" file="8"/>
+                </key>
+            </timeline>
+            <timeline id="33" name="iceshield00_001">
+                <key id="0" time="2850" spin="0">
+                    <object folder="0" file="5"/>
+                </key>
+            </timeline>
+            <timeline id="34" name="qidong03_000">
+                <key id="0" time="2900" spin="0">
+                    <object folder="0" file="3"/>
+                </key>
+            </timeline>
+            <timeline id="35" name="qidong02_000">
+                <key id="0" time="2950" spin="0">
+                    <object folder="0" file="2"/>
+                </key>
+            </timeline>
+            <timeline id="36" name="qidong01_000">
+                <key id="0" time="3000" spin="0">
+                    <object folder="0" file="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

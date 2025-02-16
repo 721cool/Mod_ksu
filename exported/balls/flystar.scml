@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="balls">
+        <file id="0" name="balls/13.png" width="200" height="282" pivot_x="0.503342" pivot_y="0.339485"/>
+    </folder>
+    <entity id="0" name="star">
+        <animation id="0" name="fly" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="13" folder="0" file="0" abs_x="-0.938243" abs_y="-0.006986" abs_pivot_x="0.485815" abs_pivot_y="0.506889" abs_angle="359.607888" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="240">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="579">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="915">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="13">
+                <key id="0">
+                    <object folder="0" file="0" x="-0.938243" y="-0.006986" pivot_x="0.485815" pivot_y="0.506889" angle="359.607888"/>
+                </key>
+                <key id="1" time="240">
+                    <object folder="0" file="0" x="-0.938243" y="-0.006986" pivot_x="0.485815" pivot_y="0.506889" angle="97.982437"/>
+                </key>
+                <key id="2" time="579">
+                    <object folder="0" file="0" x="-0.938243" y="-0.006986" pivot_x="0.485815" pivot_y="0.506889" angle="256.216547"/>
+                </key>
+                <key id="3" time="915">
+                    <object folder="0" file="0" x="-0.938243" y="-0.006986" pivot_x="0.485815" pivot_y="0.506889" angle="328.76219"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="13_000" folder="0" file="0" abs_x="-0.003342" abs_y="-3.348257" abs_pivot_x="0.503342" abs_pivot_y="0.339485" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="13_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-0.003342" y="-3.348257"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
